@@ -33,9 +33,8 @@ The game uses a **`for` loop** that iterates `N` times, handling one round of th
 
 * **User Input:** Inside the loop, `input()` is used to capture the user's prediction (`Pred`), which is expected to be one of the strings: `"High"`, `"Tie"`, or `"Low"`.
 * **Dice Roll:** A new random integer `Roll` (1-6) is generated for the current round.
-    $$
-    Roll \in \{1, 2, 3, 4, 5, 6\}
-    $$
+
+      Roll = random.randint(1, 6)
 
 #### 3. Prediction Logic
 
@@ -55,9 +54,8 @@ After the loop completes, the script calculates and prints the final statistics.
 
 * **Win Percentage Calculation:**
     The final win rate is calculated using floating-point arithmetic to ensure accuracy:
-    $$
-    Win\textunderscore percent = \frac{Wins \times 100}{N}
-    $$
+   <img width="437" height="90" alt="image" src="https://github.com/user-attachments/assets/d32d4e81-a50a-47ff-9435-e889c046d497" />
+
 
 ---
 
@@ -68,5 +66,3 @@ After the loop completes, the script calculates and prints the final statistics.
 * **Variable Scoping:** While simple, ensure all variables are appropriately scoped for future expansion.
 
 ---
-
-## 🔗 Repository File Structure
